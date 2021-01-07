@@ -1,4 +1,5 @@
 def melon_report(file):
+    """formats text file"""
     for line in the_file:
         line = line.rstrip()
         words = line.split('|')
